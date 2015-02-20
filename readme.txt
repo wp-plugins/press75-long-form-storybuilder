@@ -3,7 +3,7 @@ Contributors: mr_speer, press75
 Tags: long form, long form content, stories, aesop, media rich, snowfall, modular, content, long format, long format stories
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -83,6 +83,9 @@ Absolutely! We're actively developing new section types to add even more functio
 4. Utilize the same editors you've been using to create Posts and Pages
 
 == Changelog ==
+
+= 0.1.1 =
+* Some stability fixes
 
 = 0.1.0 =
 * Official beta release
