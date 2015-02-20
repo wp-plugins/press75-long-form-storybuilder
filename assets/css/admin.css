@@ -1,0 +1,400 @@
+.hidden-by-modules {
+    display: none!important;
+}
+
+#available-widgets [class*=lfc] .widget-title:before {
+    content: url(../images/icon-only.svg);
+    width: 25px;
+    height: 25px;
+}
+
+#wp-lfc-tinymce-widget-wrap {
+    display: none;
+}
+
+.accordion-section-title.lfc-section {
+    padding-left: 45px;
+    position: relative;
+    background: #292f2f!important;
+    color: white!important;
+}
+
+.accordion-section-title.lfc-section:before {
+    content: url(../images/icon-only-white.svg);
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.accordion-section-title.lfc-section:after {
+    background: #444748!important;
+    color: #FFFFFF!important;
+    border-left: none!important;
+}
+
+li[id*=page_options_] .accordion-section-title:after {
+    width: 43px;
+    line-height: 42px;
+    top: 0;
+    right: 0;
+}
+
+.accordion-section-title.lfc-section:hover:after {
+    background: #53585a!important;
+}
+
+.lfc-panel .control-panel-content > .control-section:first-child > .accordion-section-title {
+    background: #292f2f!important;
+    color: #FFFFFF!important;
+    padding-top: 90px;
+    position: relative;
+}
+
+.lfc-panel .control-panel-content > .control-section:first-child > .accordion-section-title:after {
+    display: none;
+}
+
+.lfc-panel .control-panel-content > .control-section:first-child > .accordion-section-title:before {
+    content: url(../images/logo.svg);
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+}
+
+.lfc-panel .control-panel-content > .control-section:first-child > .accordion-section-title .preview-notice {
+    display: none;
+}
+
+.lfc-panel .widget-inside {
+    top: 0!important;
+    bottom: 0!important;
+    height: 100%;
+}
+
+.lfc-panel .widget-inside label {
+    float: none;
+    display: block;
+}
+
+.lfc-panel .wp-media-buttons, .lfc-panel .wp-editor-tabs {
+    margin-top: 10px;
+}
+
+.lfc-image-wrap {
+    text-align: center;
+    border: 2px dashed #ddd;
+    padding: 10px;
+}
+
+.lfc-image {
+    overflow: hidden;
+}
+
+.newimage-section .lfc-image-select {
+    width: 100%;
+    height: 36px;
+}
+
+.image-section {
+    display: none;
+}
+
+.image-section .image {
+    text-align: center;
+}
+
+.image-section .image img {
+    max-width: 100%;
+}
+
+.image-section .buttons {
+    margin-top: 5px;
+    text-align: left;
+}
+
+div.mce-edit-area {
+    border: 1px solid #ddd!important;
+    border-bottom: none!important;
+}
+
+.mce-container {
+    float: none;
+    clear: both;
+}
+
+.lfc-module-instructions {
+    background: #f7f7f7;
+    box-sizing: border-box;
+    padding: 15px 50px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.lfc-instructions-hd {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 15px;
+    position: relative;
+}
+
+.lfc-instructions-bd {
+    font-size: 13px;
+    line-height: 1.4;
+    display: none;
+}
+
+.lfc-instructions-hd:before {
+    position: absolute;
+    top: -5px;
+    left: -35px;
+    content: url(../images/icon-only.svg);
+    width: 25px;
+    height: 25px;
+}
+
+.lfc-settings-section {
+    margin-bottom: 20px;
+    width: 500px;
+    max-width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+    padding: 0 30px 20px 30px;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.lfc-image-wrap {
+    margin-bottom: 20px;
+}
+
+.widget-tpl[class*=lfc]{
+    position: relative;
+    transform: translateZ(0);
+    -webkit-transition: all 0.2s;
+}
+
+.widget[id*=lfc] label {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.widget[id*=lfc] .control-section {
+    margin-bottom: 20px;
+}
+
+.widget-tpl.lfc-margin-space {
+    margin-top: 240px;
+}
+
+.lfc-accordion-container {
+    width: 100%;
+}
+
+.lfc-accordion-container .menu-item-title input[type="text"] {
+    margin-top: 10px;
+}
+
+.lfc-accordion-container .accordion-section-title:after {
+    content: none!important;
+}
+
+#customize-theme-controls .lfc-accordion-container .control-section {
+    border: 1px solid #dfdfdf;
+    margin-bottom: 20px;
+}
+
+.lfc-sortable-items li {
+    border: 1px solid #dfdfdf;
+    padding: 10px 15px;
+    height: auto;
+    line-height: 30px;
+    overflow: hidden;
+    word-wrap: break-word;
+    cursor: move;
+    background: #fafafa;
+}
+
+.lfc-delete-page {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.add-image-to-carousel {
+    margin-bottom: 20px;
+}
+
+.lfc-carousel-images {
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 3px dashed #cccccc;
+    padding: 5px 15px;
+    cursor: move;
+}
+
+.remove-lfc-carousel-image {
+    position: absolute;
+    top: -5px;
+    right: 0;
+    border-radius: 100%;
+    border: 1px solid #cccccc;
+    background: white;
+    font-size: 10px;
+    width: 10px;
+    height: 10px;
+    line-height: 9px;
+    text-align: center;
+    padding: 2px;
+    font-weight: bold;
+    display: none;
+    cursor: pointer;
+}
+
+.lfc-carousel-image:hover .remove-lfc-carousel-image {
+    display: block;
+}
+
+.lfc-carousel-image {
+    width: 25%;
+    margin: 10px 0;
+    float: left;
+    position: relative;
+}
+
+.lfc-carousel-image img {
+    max-width: 100%;
+    border: 1px solid #cccccc;
+}
+
+/* Module Previews
+--------------------------------------------------------------------*/
+#available-widgets {
+    overflow-x: hidden;
+}
+
+.widget-tpl[class*=lfc] {
+    height: 55px;
+}
+
+.widget-tpl[class*=lfc]:hover .widget-description {
+    width: 165px;
+}
+
+.widget-tpl[class*=lfc]:after {
+    content: '';
+    position: absolute;
+    width: 115px;
+    right:0;
+    top: 0;
+    bottom: 0;
+    background: #fafafa;
+    -webkit-transform: translateX(100%);
+    -webkit-transition: all 0.2s;
+}
+
+.widget-tpl[class*=lfc] > div {
+    -webkit-transition: all 0.2s;
+    -webkit-transform: translateX(0);
+}
+
+.widget-tpl[class*=lfc]:hover > div {
+    -webkit-transform: translateX(-40px);
+}
+
+.widget-tpl[class*=lfc]:hover:after {
+    -webkit-transform: translateX(0);
+}
+
+.widget-tpl[class*=lfc-callout]:after {
+    content: url(../images/callout.svg);
+}
+
+.widget-tpl[class*=lfc-content]:after {
+    content: url(../images/content.svg);
+}
+
+.widget-tpl[class*=lfc-section]:after {
+    content: url(../images/callout.svg);
+}
+
+.widget-tpl[class*=lfc-header]:after {
+    content: url(../images/hero.svg);
+}
+
+.widget-tpl[class*=lfc-full]:after {
+    content: url(../images/hero.svg);
+}
+
+.widget-tpl[class*=lfc-content-three]:after {
+    content: url(../images/three-col.svg);
+}
+
+.widget-tpl[class*=lfc-content-two]:after {
+    content: url(../images/two-col.svg);
+}
+
+.widget-tpl[class*=lfc-nav]:after {
+    content: url(../images/nav.svg);
+}
+
+.widget-tpl[class*=lfc-image]:after {
+    content: url(../images/img-carousel.svg);
+}
+ 
+/* Input Styles
+--------------------------------------------------------------------*/
+.lfc-panel input[type="text"], .lfc-panel textarea {
+    padding: 10px 7px;
+    border: 1px solid #dddddd;
+    outline: none;
+    border-radius: 3px;
+    width: 100%;
+}
+
+li[id*=_lfc] .widget-control-actions .alignleft .widget-control-remove {
+    display: none;
+}
+
+li[id*=_lfc] .widget-control-actions .alignleft .widget-control-close {
+    background: white;
+    margin-left: -10px;
+}
+
+li[id*=_lfc] .widget-control-actions .alignright {
+    position: relative;
+}
+
+li[id*=_lfc] .widget-control-actions .alignright .spinner {
+    position: relative;
+    top: 20px;
+}
+
+li[id*=_lfc] .widget-control-actions .alignright:before {
+    content: 'Delete Section';
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #0074a2;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+li[id*=_lfc] .widget-control-actions .alignright:hover:before {
+    color: #2ea2cc;
+}
