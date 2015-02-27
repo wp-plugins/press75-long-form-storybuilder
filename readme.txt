@@ -3,7 +3,7 @@ Contributors: mr_speer, press75
 Tags: long form, long form content, stories, aesop, media rich, snowfall, modular, content, long format, long format stories
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 0.1.1
+Stable tag: 0.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -84,6 +84,10 @@ Absolutely! We're actively developing new section types to add even more functio
 
 == Changelog ==
 
+= 0.1.2 =
+* Fixed undefined errors in Nav Module that caused PHP Notices to be thrown
+* Removed outdated reference to font combination "fancy pants"
+
 = 0.1.1 =
 * Some stability fixes
 
@@ -91,6 +95,10 @@ Absolutely! We're actively developing new section types to add even more functio
 * Official beta release
 
 == Upgrade Notice ==
+
+= 0.1.2 =
+* Fixed undefined errors in Nav Module that caused PHP Notices to be thrown
+* Removed outdated reference to font combination "fancy pants"
 
 = 0.1.0 =
 Initial beta release

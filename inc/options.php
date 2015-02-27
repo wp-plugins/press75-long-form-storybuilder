@@ -196,7 +196,7 @@ class LFC_Options {
       // Setting for Font Combinations
       $wp_customize->add_setting( 'lfc_fonts' . $post->ID,
         array(
-          'default' => 'fancy_pants',
+          'default' => 'playfair_open_sans',
           )
         );
 

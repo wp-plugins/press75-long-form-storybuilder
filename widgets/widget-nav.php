@@ -153,7 +153,7 @@ class Lfc_Nav_Widget extends WP_Widget {
         <div class="lfc-current-pages lfc-settings-section lfc_show_custom">
             <label>Current Menu Items</label>
             <ul class="lfc-sortable-items lfc-current-pages-list">
-                <?php if( $current_pages ){
+                <?php if( isset( $current_pages ) && $current_pages ){
                     foreach( $current_pages as $page ){
                         echo "<li data-title='$page->title' data-url='$page->url'><span class='lfc-delete-page'>x</span>$page->title</li>";
                     }
@@ -247,7 +247,6 @@ class Lfc_Nav_Widget extends WP_Widget {
      * @return array Updated safe values to be saved.
      */
     public function update( $new_instance, $old_instance ) {
-        error_log( json_encode( $new_instance['pages_json'] ), 0 );
         $instance = array();
         $instance['title'] = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] ) : '';
         $instance['image_id'] = ( ! empty( $new_instance['image_id'] ) ) ? $new_instance['image_id'] : '';
