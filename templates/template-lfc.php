@@ -65,7 +65,7 @@
 		<?php endif; ?>
 </style>
 </head>
-
+<body>
 <div id="lfc-sections" class="lfc-sections">
     <?php $id = 'modules-' . get_the_id();?>
 	<?php if( ! dynamic_sidebar( $id ) ): ?>

@@ -3,7 +3,7 @@
 Plugin Name: Long Form Storybuilder
 Plugin URI: #
 Description: A Plugin to allow easy creation of Long Form Content
-Version: 0.1.2
+Version: 0.1.3
 Author: Aaron Speer, Press75
 Author URI: http://press75.com
 Package: lfc
